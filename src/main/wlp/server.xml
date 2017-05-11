@@ -12,7 +12,7 @@
         <tcpOptions soReuseAddr="true"/>
     </httpEndpoint>
 
-    <application name="ferret" context-root="/ferret" location="${wlp.install.dir}/../../${appLocation}" type="war">
+    <application name="ferret" context-root="/ferret" location="${appLocation}.war" type="war">
       <application-bnd>
         <security-role name="user">
           <user name="bob"/>
