@@ -94,20 +94,6 @@
 	                        <goal>package-server</goal>
 	                    </goals>
 	                </execution>
-	                <execution>
-	                    <id>test-start-server</id>
-	                    <phase>pre-integration-test</phase>
-	                    <goals>
-	                        <goal>test-start-server</goal>
-	                    </goals>
-	                </execution>
-	                <execution>
-	                    <id>test-stop-server</id>
-	                    <phase>post-integration-test</phase>
-	                    <goals>
-	                        <goal>test-stop-server</goal>
-	                    </goals>
-	                </execution>
                 </executions>
             </plugin>
         </plugins>
