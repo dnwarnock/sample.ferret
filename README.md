@@ -38,7 +38,7 @@ Click the button below to deploy your own copy of this application to [Bluemix](
 
 # Notice
 
-© Copyright IBM Corporation 2017.
+© Copyright IBM Corporation 2014, 2017.
 
 # License
 
