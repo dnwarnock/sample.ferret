@@ -1,4 +1,8 @@
 sudo: false
 language: java
-jdk: oraclejdk7
-script: mvn test
+matrix:
+  include:
+    - jdk: oraclejdk7
+    - jdk: oraclejdk8
+script:
+  - mvn install
